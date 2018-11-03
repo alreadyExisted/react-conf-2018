@@ -1,0 +1,25 @@
+:root {
+  --pink: #FF1C68;
+  --green: #14D790;
+  --blue: #198FE3;
+  --purple: #A100F6;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  list-style: none;
+}
+
+.item {
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 10px;
+  background: var(--pink);
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
